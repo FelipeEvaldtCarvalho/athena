@@ -13,6 +13,7 @@
                     type="text"
                     @focusin="upUserLabel"
                     @focusout="backUserLabel"
+                    autocomplete="nope"
                 />
             </div>
         </div>

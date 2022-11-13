@@ -15,6 +15,7 @@
                     @focusin="upNameLabel"
                     @focusout="backNameLabel"
                     @change="upNameLabel"
+                    autocomplete="nope"
                 />
             </div>
         </div>
@@ -30,6 +31,7 @@
                     @focusin="upCpfLabel"
                     @focusout="backCpfLabel"
                     @change="upCpfLabel"
+                    autocomplete="nope"
                 />
             </div>
         </div>
@@ -45,6 +47,7 @@
                     @focusin="upPhoneLabel"
                     @focusout="backPhoneLabel"
                     @change="upPhoneLabel"
+                    autocomplete="nope"
                 />
             </div>
         </div>
@@ -60,6 +63,7 @@
                     @focusin="upEmailLabel"
                     @focusout="backEmailLabel"
                     @change="upEmailLabel"
+                    autocomplete="nope"
                 />
             </div>
         </div>

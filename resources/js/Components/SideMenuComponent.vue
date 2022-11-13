@@ -38,7 +38,7 @@
             <div class="menu-close zi-900 w-100 justify-content-end">
                 <div class="d-flex w-15 justify-content-center">
                     <a href="#" class="zi-1000" @click="$emit('closeModal')"
-                        ><i class="bi bi-x-circle-fill"></i
+                        ><i class="bi bi-x-circle-fill menu-close-btn"></i
                     ></a>
                 </div>
             </div>
@@ -159,6 +159,8 @@ a .btn:hover {
     z-index: 1000;
 }
 .menu-close a {
+}
+.menu-close-btn {
     color: #ffffff !important;
 }
 </style>

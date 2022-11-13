@@ -223,6 +223,9 @@ export default {
 .remove-item-btn:hover {
     background-color: #433e37;
 }
+.remove-item-btn i {
+    color: #fff;
+}
 .btn {
     font-family: "Roboto", sans-serif;
     font-weight: 300;

@@ -139,97 +139,10 @@ export default {
     },
 };
 </script>
-<style>
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-p,
-h1,
-h2 {
-    color: #645e56;
-}
-.section-category {
-    font-family: "Roboto", sans-serif;
-    font-size: 1em;
-    font-weight: 300;
-    margin: 0;
-}
-.section-title {
-    font-family: "Roboto", sans-serif;
-    font-size: 1em;
-    font-weight: 300;
-    padding: 15px 0 25px 25px;
-    margin: 0;
-}
-
-.section-category a{
+<style >
+a{
     text-decoration: none;
     color: #645e56;
-}
-.section-category a:hover{
-    color: #433e37;
-}
-.section-title-link {
-    font-family: "Roboto", sans-serif;
-    font-size: 0.8em;
-    font-weight: 700;
-    padding: 15px 25px 25px 0;
-    margin: 0;
-    text-decoration: none;
-    color: #645e56;
-    transition: 0.5s;
-}
-.section-title-link:hover {
-    color: #433e37;
-}
-.product-name {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 0.8em;
-    padding-top: 5px;
-    margin: 0;
-}
-.fs-2em {
-    font-size: 2em;
-}
-.fs-1-5em {
-    font-size: 1.5em;
-}
-.product-price {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    padding-top: 5px;
-    margin: 0;
-}
-.logo {
-    font-family: "brownsugar";
-    font-size: 2.2em;
-    padding-top: 7px;
-}
-.color-primary {
-    color: #645e56;
-    transition: 0.6s;
-    transform: 0.6s;
-}
-.hover:hover {
-    color: #433e37;
-}
-.amount-input {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-}
-.cep-input {
-    border: 1px solid #ced4da;
-    padding: 0 5px;
-    width: 50%;
-}
-.cep-input:focus {
-    outline: 1px solid #645e56;
 }
 input[type="number"] {
     -webkit-appearance: textfield;
@@ -258,31 +171,7 @@ input[type="number"]::-webkit-outer-spin-button {
     border: none;
     font-size: 2em;
 }
-.start-98 {
-    left: 98%;
-}
-.start-2 {
-    left: 2%;
-}
-.zi-100 {
-    z-index: 100;
-}
 .menu-close a {
     color: #ffffff;
-}
-.fp-100 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-}
-.fp-300 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-}
-.fp-700 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-}
-.cp {
-    color: #645e56;
 }
 </style>

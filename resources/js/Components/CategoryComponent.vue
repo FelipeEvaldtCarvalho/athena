@@ -24,9 +24,9 @@
             </div>
         </div>
         <div class="d-flex w-100 justify-content-around">
-            <a v-if="products.links[0].url" class="btn rounded" :href="products.links[0].url">
+            <Link v-if="products.links[0].url" class="btn rounded" :href="products.links[0].url">
                 <i class="bi bi-chevron-left"></i>
-            </a>
+            </Link>
             <a v-if="!products.links[0].url" class="btn rounded" :href="products.last_page_url">
                 <i class="bi bi-chevron-left"></i>
             </a>
@@ -37,6 +37,7 @@
 </template>
 
 <script>
+import { Link } from '@inertiajs/inertia-vue3';
 import stringToArray from "../Services/stringToArray";
 import IndexCategoryComponent from "./IndexCategoryComponent.vue";
 export default {
@@ -47,6 +48,7 @@ export default {
     },
     components: {
         IndexCategoryComponent,
+        Link
     },
     data() {
         return {
